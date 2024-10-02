@@ -17,6 +17,6 @@ def perimeter(a,b,c):
                                b (float) : десятичное число
                                c (float) : десятичное число
                 Возвращаемое значение:
-                               perimeter (float): периметр треугольника со сторонами a, b и
+                               perimeter (float): периметр треугольника со сторонами a, b и c
     '''
     return a+b+c

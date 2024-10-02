@@ -9,7 +9,7 @@ def area(r):
 
        Возвращаемое значение:
                area (float): площадь круга с радиусом r
-       '''
+    '''
     return math.pi * r * r
 
 
