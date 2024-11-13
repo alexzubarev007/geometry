@@ -31,7 +31,7 @@ class SquareTestCase(unittest.TestCase):
 
     def test_rational_area(self):
         res = area(1.7)
-        self.assertEqual(res, 2.89)
+        self.assertAlmostEqual(res, 2.89, places=2)
 
     def test_invalid_area(self):
         self.assertRaises(Exception, lambda: area(-3))

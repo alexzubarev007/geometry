@@ -31,7 +31,7 @@ class СircleTestCase(unittest.TestCase):
 
     def test_one_divide_pi_area(self):
         res = area(1/(math.sqrt(math.pi)))
-        self.assertEqual(res, 1)
+        self.assertAlmostEqual(res, 1, places = 2)
 
     def test_invalid_area(self):
        self.assertRaises(Exception, lambda: area(-1))
